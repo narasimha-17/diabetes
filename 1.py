@@ -34,7 +34,7 @@ def main():
     # getting the input data from the user
     
     
-    Pregnancies = st.text_input('Number of Pregnancies')
+    Pregnancies = st.number_input('Number of Pregnancies')
     Glucose = st.text_input('Glucose Level')
     BloodPressure = st.text_input('Blood Pressure value')
     SkinThickness = st.text_input('Skin Thickness value')
